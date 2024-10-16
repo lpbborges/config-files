@@ -1,0 +1,132 @@
+{
+  "editor.fontFamily": "MesloLGS NF",
+  "editor.fontLigatures": true,
+  "workbench.startupEditor": "none",
+  "explorer.compactFolders": false,
+  "workbench.editor.labelFormat": "short",
+  "extensions.ignoreRecommendations": true,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "breadcrumbs.enabled": true,
+  "editor.parameterHints.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "html-eex": "html"
+  },
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
+  "typescript.preferences.preferTypeOnlyAutoImports": true,
+  "editor.fontSize": 16,
+  "editor.lineHeight": 24,
+  "editor.rulers": [80, 120],
+  "editor.formatOnSave": true,
+  "[typescript]": {
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.renderLineHighlight": "gutter",
+  "terminal.integrated.fontSize": 14,
+  "editor.minimap.enabled": false,
+  "files.associations": {
+    "*.html": "html",
+    ".sequelizerc": "javascript",
+    ".stylelintrc": "json",
+    ".prettierrc": "json"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "always"
+  },
+  "editor.suggestSelection": "first",
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "elixirLS.dialyzerEnabled": false,
+  "elixirLS.suggestSpecs": false,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "elixir.credo.ignoreWarningMessages": true,
+  "elixir.credo.strictMode": true,
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true
+  },
+  "elixir.credo.lintEverything": true,
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "editor.suggest.preview": true,
+  "editor.bracketPairColorization.enabled": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  },
+  "editor.guides.indentation": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "gitlens.advanced.messages": {
+    "suppressGitVersionWarning": true
+  },
+  "security.workspace.trust.startupPrompt": "never",
+  "security.workspace.trust.banner": "never",
+  "security.workspace.trust.enabled": false,
+  "terminal.integrated.profiles.linux": {
+    "bash": {
+      "path": "bash",
+      "icon": "terminal-bash"
+    },
+    "zsh": {
+      "path": "zsh"
+    },
+    "fish": {
+      "path": "fish"
+    },
+    "tmux": {
+      "path": "tmux",
+      "icon": "terminal-tmux"
+    },
+    "pwsh": {
+      "path": "pwsh",
+      "icon": "terminal-powershell"
+    }
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "workbench.colorTheme": "GitHub Dark",
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma",
+    "editor.formatOnSave": true
+  },
+  "workbench.editor.empty.hint": "hidden",
+  "git.autofetch": true,
+  "editor.tabSize": 4,
+  "editor.detectIndentation": false,
+  "files.eol": "\n",
+  "codeium.enableConfig": {
+    "*": true,
+    "editorconfig": true,
+    "markdown": true
+  },
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
